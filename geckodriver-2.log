@@ -1,0 +1,185 @@
+1589381294878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HOME\\AppData\\Local\\Temp\\rust_mozprofile.CoEgbYBAuCRf"
+1589381298369	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589381298538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589381298538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589381298545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589381298545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589381307869	Marionette	INFO	Listening on port 54174
+1589381312139	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2848, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1589381313406	addons.xpi	WARN	Addon with ID amazondotcom@search.mozilla.org already installed, older version will be disabled
+1589381313408	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+makeAddonVisible@XPIDatabase.jsm:2348:10
+addToDatabase@XPIDatabase.jsm:2275:12
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313409	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+addToDatabase@XPIDatabase.jsm:2278:10
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313543	addons.xpi	WARN	Addon with ID bing@search.mozilla.org already installed, older version will be disabled
+1589381313545	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+makeAddonVisible@XPIDatabase.jsm:2348:10
+addToDatabase@XPIDatabase.jsm:2275:12
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313546	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+addToDatabase@XPIDatabase.jsm:2278:10
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313588	addons.xpi	WARN	Addon with ID google@search.mozilla.org already installed, older version will be disabled
+1589381313589	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+makeAddonVisible@XPIDatabase.jsm:2348:10
+addToDatabase@XPIDatabase.jsm:2275:12
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313589	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+addToDatabase@XPIDatabase.jsm:2278:10
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313648	addons.xpi	WARN	Addon with ID twitter@search.mozilla.org already installed, older version will be disabled
+1589381313650	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+makeAddonVisible@XPIDatabase.jsm:2348:10
+addToDatabase@XPIDatabase.jsm:2275:12
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313651	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+addToDatabase@XPIDatabase.jsm:2278:10
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313779	addons.xpi	WARN	Addon with ID wikipedia@search.mozilla.org already installed, older version will be disabled
+1589381313780	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+makeAddonVisible@XPIDatabase.jsm:2348:10
+addToDatabase@XPIDatabase.jsm:2275:12
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313781	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+addToDatabase@XPIDatabase.jsm:2278:10
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313840	addons.xpi	WARN	Addon with ID ddg@search.mozilla.org already installed, older version will be disabled
+1589381313841	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+makeAddonVisible@XPIDatabase.jsm:2348:10
+addToDatabase@XPIDatabase.jsm:2275:12
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381313842	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1545:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1545:17
+addToDatabase@XPIDatabase.jsm:2278:10
+install@XPIInstall.jsm:4320:27
+update@XPIProvider.jsm:2074:13
+async*_activateAddon@XPIInstall.jsm:4339:54
+async*installBuiltinAddon@XPIInstall.jsm:4275:16
+async*XPIProvider[meth]@XPIProvider.jsm:3138:28
+installBuiltinAddon@AddonManager.jsm:2548:7
+installBuiltinAddon@AddonManager.jsm:4082:33
+ensureBuiltinExtension@SearchService.jsm:1362:28
+_loadEngines@SearchService.jsm:1282:20
+async*_maybeReloadEngines@SearchService.jsm:1481:16
+async*_maybeReloadEngines/</<@SearchService.jsm:1453:16
+1589381317079	Marionette	INFO	Stopped listening on port 54174
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
